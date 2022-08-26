@@ -10,9 +10,10 @@ Process Regression(GPR) using such random fourier features.
 
 The module GPRI is the main ECL interface. Three functions are available to the users: getSession,
 fit and predict.
-   * getSession function generates a 'session ID' for the training and predict process.
-   * fit function fits the input data and train a GPR model.
-   * predict funcion uses the trained GPR model to make predictions for the new observations.
+
+- getSession function generates a 'session ID' for the training and predict process.
+- fit function fits the input data and train a GPR model.
+- predict funcion uses the trained GPR model to make predictions for the new observations.
 
 For details of each function, see the comments below above each function in GPRI.ecl file.
 For details of record structure used in these functions, see Types.ecl file.
